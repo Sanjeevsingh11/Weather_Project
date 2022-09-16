@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Weather App</title>
+    
+  </head>
+
+  <body>
+    <div class="app-main">
+      <h1 id="head">Weather App</h1>
+      <div class="searchInputBox">
+        <input
+          type="text"
+          id="input-box"
+          class="input-box"
+          placeholder="Enter city name..."
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="weather-body" id="xyz">
+        <div class="location-details">
+          <div class="city" id="city"></div>
+          <div class="date" id="date"></div>
+        </div>
+
+        <div class="weather-status">
+          <div class="temp" id="temp">34&deg;C</div>
+          <div class="min-max" id="min-max">
+            <pre>32&deg;C (min) &nbsp;/&nbsp;  34&deg;C (max)</pre>
+          </div>
+          <div class="weather" id="weather">Clear</div>
+          <div id="map"></div>
+          <div id="img"></div>
+        </div>
+      </div>
+    </div>
+
+    <audio controls loop ></audio>
+   
+    <script src="app.js"></script>
+  </body>
+</html>
